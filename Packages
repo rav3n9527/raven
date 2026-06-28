@@ -1,0 +1,16 @@
+Package: com.pipboy.tweak
+Version: 1.0.22
+Architecture: iphoneos-arm64
+Maintainer: PipBoy Dev
+Installed-Size: 500
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/com.pipboy.tweak_1.0.22_iphoneos-arm64.deb
+Size: 67474
+MD5sum: 930a48b6d59150fa7d87183d9819429e
+SHA1: 876998baaeff7b6e45b50cf43fb646386855598e
+SHA256: 51c0cd48a2e104b8bbf9827bbd78aacf022d1c60d53e289a6dce4a8e76d35a06
+Section: Tweaks
+Description: 自娱自乐插件 - 关闭所有后台、内存/存储显示、白名单锁定、双击锁屏、显示网速等
+Author: PipBoy Dev
+Name: 哔哔小子
+

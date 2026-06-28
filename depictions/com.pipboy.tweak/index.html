@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>哔哔小子 - PipBoy</title>
+<style>
+  :root { color-scheme: light dark; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif;
+    background: #f2f2f7;
+    color: #1c1c1e;
+    padding: 24px 16px 60px;
+    max-width: 640px;
+    margin: 0 auto;
+  }
+  @media (prefers-color-scheme: dark) {
+    body { background: #000; color: #f2f2f7; }
+    .card { background: #1c1c1e; }
+    .feature { background: #2c2c2e; }
+    .badge { background: #3a3a3c; color: #ff9f0a; }
+  }
+  .card {
+    background: #fff;
+    border-radius: 20px;
+    padding: 28px 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  }
+  .icon-row {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 18px;
+  }
+  .icon {
+    width: 56px; height: 56px;
+    border-radius: 16px;
+    background: linear-gradient(135deg, #0a0a0a 0%, #2a2a2a 100%);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 28px;
+  }
+  h1 { font-size: 24px; font-weight: 700; }
+  .subtitle { font-size: 14px; color: #8e8e93; margin-top: 2px; }
+  .desc { font-size: 15px; line-height: 1.6; color: #636366; margin: 14px 0 0; }
+  @media (prefers-color-scheme: dark) {
+    .desc { color: #aeaeb2; }
+    .subtitle { color: #8e8e93; }
+  }
+  .features { display: flex; flex-wrap: wrap; gap: 10px; }
+  .feature {
+    background: #f2f2f7;
+    border-radius: 12px;
+    padding: 14px 16px;
+    flex: 1 1 calc(50% - 5px);
+    min-width: 140px;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex; align-items: center;
+    gap: 8px;
+  }
+  .badge {
+    background: #f2f2f7;
+    color: #ff9f0a;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: 20px;
+  }
+  .info-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(128,128,128,0.15);
+    font-size: 14px;
+  }
+  .info-row:last-child { border: none; }
+  .label { color: #8e8e93; }
+  a { color: #007aff; text-decoration: none; }
+  .footer { text-align: center; font-size: 12px; color: #8e8e93; margin-top: 30px; }
+</style>
+</head>
+<body>
+
+<div class="card">
+  <div class="icon-row">
+    <div class="icon">☢️</div>
+    <div>
+      <h1>哔哔小子</h1>
+      <div class="subtitle">PipBoy v1.0.0 · iOS 15+</div>
+    </div>
+  </div>
+  <p class="desc">
+    多任务增强插件 — 在应用切换器中注入毛玻璃控制面板，一键关闭所有后台应用，实时显示内存和存储状态，支持下滑锁定白名单。
+  </p>
+</div>
+
+<div class="card">
+  <h2 style="font-size:18px;font-weight:600;margin-bottom:14px">功能特性</h2>
+  <div class="features">
+    <div class="feature">🗑 关闭所有后台</div>
+    <div class="feature">📊 内存 / 存储监控</div>
+    <div class="feature">🔒 下滑锁定白名单</div>
+    <div class="feature">🎵 自动保护播放中应用</div>
+  </div>
+</div>
+
+<div class="card">
+  <h2 style="font-size:18px;font-weight:600;margin-bottom:14px">使用方法</h2>
+  <p style="font-size:14px;line-height:1.8;color:#636366">
+    1. 打开多任务切换器<br>
+    2. 底部毛玻璃面板显示系统信息<br>
+    3. 点击 <b>关闭所有</b> 一键清后台<br>
+    4. 在卡片上 <b>向下滑动</b> 锁定 / 解锁
+  </p>
+</div>
+
+<div class="card">
+  <h2 style="font-size:18px;font-weight:600;margin-bottom:14px">详情</h2>
+  <div class="info-row"><span class="label">包名</span><span>com.pipboy.tweak</span></div>
+  <div class="info-row"><span class="label">版本</span><span class="badge">1.0.0</span></div>
+  <div class="info-row"><span class="label">架构</span><span>iphoneos-arm64</span></div>
+  <div class="info-row"><span class="label">最低系统</span><span>iOS 15.0</span></div>
+  <div class="info-row"><span class="label">依赖</span><span>mobilesubstrate</span></div>
+  <div class="info-row"><span class="label">源码</span><span><a href="https://github.com/rav3n9527/pipboy" target="_blank">GitHub ↗</a></span></div>
+</div>
+
+<div class="footer">哔哔小子 · MIT License</div>
+
+</body>
+</html>

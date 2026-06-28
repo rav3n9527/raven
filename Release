@@ -1,0 +1,8 @@
+Origin: 废土战士
+Label: 废土战士
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm64
+Components: main
+Description: 废土战士 - iOS 15+ 多任务增强插件源
